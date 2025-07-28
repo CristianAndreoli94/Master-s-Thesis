@@ -2,19 +2,19 @@
 
 This Master’s thesis tackles object detection in ultra‑high‑resolution SAR imagery from ICEYE, focusing on aircraft in complex airport scenes. A preprocessing pipeline for GRD and CSI products was implemented. A YOLOv8 CNN is adapted for detection and benchmarked against Vision Transformers and foundation models. Comparative experiments explore spatial resolutions (0.25–0.5 m), data formats, and model complexities, assessing recall, precision, and computational trade‑offs.
 
-# Object Detection in Ultra-High Resolution Satellite SAR Data via YOLO Adaptation
+# Object Detection in Ultra-High Resolution Satellite SAR Data
 
 **Master’s Thesis – Cristian Andreoli**  
-University of Pavia – Dept. of Electrical, Computer, and Biomedical Engineering  
+University of Pavia – Dept. of Industrial and Information Engineering
 Industrial Internship: ICEYE (Finland)
 
 ---
 
 ## Overview
 
-This repository presents the code, data pipeline, and results of my Master’s Thesis, focusing on automatic object (aircraft) detection in ultra-high-resolution Synthetic Aperture Radar (SAR) imagery acquired from ICEYE satellites.
+This repository presents the data pipeline, and results of my Master’s Thesis, focusing on automatic object (aircraft) detection in ultra-high-resolution Synthetic Aperture Radar (SAR) imagery acquired from ICEYE satellites.
 
-The project explored how state-of-the-art deep learning models—originally trained on optical images—can be adapted for the unique challenges of SAR data, including side-looking geometry, speckle noise, and double-bounce phenomena.
+The project explored how state-of-the-art deep learning models, originally trained on optical images, can be adapted for the unique challenges of SAR data, including side-looking geometry, speckle noise, and double-bounce phenomena.
 
 ## Highlights
 
@@ -22,13 +22,12 @@ The project explored how state-of-the-art deep learning models—originally trai
 - **Advanced Preprocessing:** Calibration, conversion to GRD and CSI, down/up-sampling, and intelligent tiling for optimal training and evaluation.
 - **Modeling:** 
   - Fine-tuned YOLOv8 (CNN-based, pretrained on COCO) for robust, near real-time detection on SAR.
-  - Vision Transformer foundation model (Clay) integrated for benchmarking flexibility on variable-size inputs.
+  - Vision Transformer foundation model for Earth Observation (Clay) adapted and fine-tuned for object detection task.
   - Ablation and benchmarking of ResNet50-based backbone for comparison.
 - **Key Findings:**
   - YOLOv8 successfully transfers to SAR imagery with suitable fine-tuning and augmentation.
   - No significant detection benefit from CSI (colorized) vs. GRD (amplitude) images.
-  - Sub-metric resolution improves recall but increases computational demands.
-  - Transformer models require more SAR-specific pretraining/data to compete with optimized CNNs.
+  - The careful choice of resolution (resizing) and tile size further improved localization, confirming that hyperparameter tuning is crucial for small-object detection. 
 - **Research Impact:** The thesis demonstrates the practical effectiveness and limits of current deep learning architectures for small object detection in complex radar imagery, providing benchmarks for both academic and industrial Earth observation communities.
 
 ---
@@ -39,7 +38,7 @@ The project explored how state-of-the-art deep learning models—originally trai
 ![Example SAR scene](images/sar_scene_grd.png)
 
 ### Aircraft Annotation Example
-![Aircraft annotation](images/labels.png)
+![Aircraft annotation](images/labels.PNG)
 
 ### YOLOv8 Detection Output
 ![YOLOv8 detection result](images/yolo_detection.png)
