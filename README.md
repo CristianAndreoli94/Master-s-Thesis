@@ -36,13 +36,13 @@ The project explored how state-of-the-art deep learning models, originally train
 ## Sample Images
 
 ### Airplanes Examples
-![Airplanes Examples](images/airplanes examples.png)
+![Airplanes Examples](images/airplanes_examples.PNG)
 
 ### Aircraft Annotation Example
 ![Aircraft annotation](images/labels.PNG)
 
 ### Colorized Sub-aperture Image
-![Colorized Sub-aperture Image](images/CSI sample.PNG)
+![Colorized Sub-aperture Image](images/CSI_sample.PNG)
 
 ---
 
