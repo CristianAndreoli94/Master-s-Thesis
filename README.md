@@ -35,38 +35,20 @@ The project explored how state-of-the-art deep learning models, originally train
 
 ## Sample Images
 
-### Example SAR Scene (GRD)
-![Example SAR scene](images/sar_scene_grd.png)
+### Airplanes Examples
+![Airplanes Examples](images/airplanes examples.png)
 
 ### Aircraft Annotation Example
 ![Aircraft annotation](images/labels.PNG)
 
-### YOLOv8 Detection Output
-![YOLOv8 detection result](images/yolo_detection.png)
+### Colorized Sub-aperture Image
+![Colorized Sub-aperture Image](images/CSI sample.PNG)
 
 ---
 
-## Structure
+## Links
 
-- `src/` — Model training and evaluation scripts (YOLO, Clay, ResNet50)
-- `data/` — Processed SAR image samples, annotation files
-- `notebooks/` — Data exploration and analysis notebooks
-- `results/` — Output metrics, detection visualizations
-
----
-
-## Publications & Links
-
-- [Project page – Computer Vision Lab, UniPV](https://vision.unipv.it/research/ComputerVision/Fall-detection.html)
 - [ICEYE](https://www.iceye.com/)
-- For additional reading, see:
-  - Andreoli, C. “Object Detection in Ultra-High Resolution Satellite SAR Data via Adaptation of a YOLO Model” (2025).
-
----
-
-## How to Run
-
-*(To be completed with instructions for environment setup, data download, and running the main scripts)*
 
 ---
 
