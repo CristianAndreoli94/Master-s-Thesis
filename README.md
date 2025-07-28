@@ -5,7 +5,7 @@ This Master’s thesis tackles object detection in ultra‑high‑resolution SAR
 # Object Detection in Ultra-High Resolution Satellite SAR Data
 
 **Master’s Thesis – Cristian Andreoli**  
-University of Pavia – Dept. of Industrial and Information Engineering 
+University of Pavia – Dept. of Industrial and Information Engineering. 
 Industrial Internship: ICEYE (Finland)
 
 ---
