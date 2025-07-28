@@ -44,7 +44,7 @@ The project explored how state-of-the-art deep learning models, originally train
 
 ## Acknowledgements
 
-Supervised by Prof. Fabio Dell’Acqua (UniPV) and the [ICEYE](https://www.iceye.com/) R&D team.
+Supervised by Prof. Fabio Dell’Acqua (UniPV) and the [ICEYE](https://www.iceye.com/) team.
 
 ---
 
